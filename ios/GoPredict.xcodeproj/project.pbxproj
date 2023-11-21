@@ -14,6 +14,22 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-GoPredict-GoPredictTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-GoPredict-GoPredictTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8B7F910CE1DB46219A341809 /* visbycf-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D35034074054E04B68B3984 /* visbycf-bold.otf */; };
+		7A7F60A0C3094EF8ACCA498C /* visbycf-boldoblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F9CB7165AB440DDA8368807 /* visbycf-boldoblique.otf */; };
+		5970CCD635F34252BB0CE048 /* visbycf-demibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E03172BB339A4CD99FC4CC4E /* visbycf-demibold.otf */; };
+		039183E99E1F4CFEA7EC4F66 /* visbycf-demiboldoblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = FE4AFE4BD1034AA2B9B37A18 /* visbycf-demiboldoblique.otf */; };
+		B70A055D0BCA41509871AD8F /* visbycf-extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEAD05399BEE468F8CB63F42 /* visbycf-extrabold.otf */; };
+		245EF005D1DF4248806AB785 /* visbycf-extraboldoblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF6B15C3875F4177BF616E1E /* visbycf-extraboldoblique.otf */; };
+		46C9F79841DB49DAA0A9FB2A /* visbycf-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = C7E3B78EE1944AEA82CEF8C6 /* visbycf-heavy.otf */; };
+		7800ACA03265457083CAD3D5 /* visbycf-heavyoblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = BDBE660BDFCC4F948E58CBE0 /* visbycf-heavyoblique.otf */; };
+		2A506DEEE72A48C8A7C17AE3 /* visbycf-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 01E5D60560ED4AA1870BB542 /* visbycf-light.otf */; };
+		11C5CA28EB314DD983B4B571 /* visbycf-lightoblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 722477A4F6FA47EDB95F0E7F /* visbycf-lightoblique.otf */; };
+		6F8BA0E1161B4923A792EE2D /* visbycf-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CDD35182F6E8498C87057E07 /* visbycf-medium.otf */; };
+		1CC99E437C15419686EDD4C4 /* visbycf-mediumoblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 00169B8A53EC465C847FC7B5 /* visbycf-mediumoblique.otf */; };
+		4E830ECFA34D42E68E78B2F1 /* visbycf-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9200A06DEAEB4BF1A83E4D6D /* visbycf-regular.otf */; };
+		D87FF3A209894AB197CE266C /* visbycf-regularoblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3A9AB418B414F94852C0F5A /* visbycf-regularoblique.otf */; };
+		5DD5F477E8E540F68CAF6481 /* visbycf-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2631A9414AA4A51BA43F291 /* visbycf-thin.otf */; };
+		AB606825F88243E498FDEAF9 /* visbycf-thinoblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 971432D0196E4437834BD77A /* visbycf-thinoblique.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,22 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GoPredict/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-GoPredict-GoPredictTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoPredict-GoPredictTests.release.xcconfig"; path = "Target Support Files/Pods-GoPredict-GoPredictTests/Pods-GoPredict-GoPredictTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1D35034074054E04B68B3984 /* visbycf-bold.otf */ = {isa = PBXFileReference; name = "visbycf-bold.otf"; path = "../src/assets/fonts/visbycf-bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F9CB7165AB440DDA8368807 /* visbycf-boldoblique.otf */ = {isa = PBXFileReference; name = "visbycf-boldoblique.otf"; path = "../src/assets/fonts/visbycf-boldoblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E03172BB339A4CD99FC4CC4E /* visbycf-demibold.otf */ = {isa = PBXFileReference; name = "visbycf-demibold.otf"; path = "../src/assets/fonts/visbycf-demibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE4AFE4BD1034AA2B9B37A18 /* visbycf-demiboldoblique.otf */ = {isa = PBXFileReference; name = "visbycf-demiboldoblique.otf"; path = "../src/assets/fonts/visbycf-demiboldoblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CEAD05399BEE468F8CB63F42 /* visbycf-extrabold.otf */ = {isa = PBXFileReference; name = "visbycf-extrabold.otf"; path = "../src/assets/fonts/visbycf-extrabold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF6B15C3875F4177BF616E1E /* visbycf-extraboldoblique.otf */ = {isa = PBXFileReference; name = "visbycf-extraboldoblique.otf"; path = "../src/assets/fonts/visbycf-extraboldoblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C7E3B78EE1944AEA82CEF8C6 /* visbycf-heavy.otf */ = {isa = PBXFileReference; name = "visbycf-heavy.otf"; path = "../src/assets/fonts/visbycf-heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BDBE660BDFCC4F948E58CBE0 /* visbycf-heavyoblique.otf */ = {isa = PBXFileReference; name = "visbycf-heavyoblique.otf"; path = "../src/assets/fonts/visbycf-heavyoblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01E5D60560ED4AA1870BB542 /* visbycf-light.otf */ = {isa = PBXFileReference; name = "visbycf-light.otf"; path = "../src/assets/fonts/visbycf-light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		722477A4F6FA47EDB95F0E7F /* visbycf-lightoblique.otf */ = {isa = PBXFileReference; name = "visbycf-lightoblique.otf"; path = "../src/assets/fonts/visbycf-lightoblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDD35182F6E8498C87057E07 /* visbycf-medium.otf */ = {isa = PBXFileReference; name = "visbycf-medium.otf"; path = "../src/assets/fonts/visbycf-medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		00169B8A53EC465C847FC7B5 /* visbycf-mediumoblique.otf */ = {isa = PBXFileReference; name = "visbycf-mediumoblique.otf"; path = "../src/assets/fonts/visbycf-mediumoblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9200A06DEAEB4BF1A83E4D6D /* visbycf-regular.otf */ = {isa = PBXFileReference; name = "visbycf-regular.otf"; path = "../src/assets/fonts/visbycf-regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E3A9AB418B414F94852C0F5A /* visbycf-regularoblique.otf */ = {isa = PBXFileReference; name = "visbycf-regularoblique.otf"; path = "../src/assets/fonts/visbycf-regularoblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2631A9414AA4A51BA43F291 /* visbycf-thin.otf */ = {isa = PBXFileReference; name = "visbycf-thin.otf"; path = "../src/assets/fonts/visbycf-thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		971432D0196E4437834BD77A /* visbycf-thinoblique.otf */ = {isa = PBXFileReference; name = "visbycf-thinoblique.otf"; path = "../src/assets/fonts/visbycf-thinoblique.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +154,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				421AB14B2C3941DA9D260F10 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +180,30 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		421AB14B2C3941DA9D260F10 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				1D35034074054E04B68B3984 /* visbycf-bold.otf */,
+				9F9CB7165AB440DDA8368807 /* visbycf-boldoblique.otf */,
+				E03172BB339A4CD99FC4CC4E /* visbycf-demibold.otf */,
+				FE4AFE4BD1034AA2B9B37A18 /* visbycf-demiboldoblique.otf */,
+				CEAD05399BEE468F8CB63F42 /* visbycf-extrabold.otf */,
+				DF6B15C3875F4177BF616E1E /* visbycf-extraboldoblique.otf */,
+				C7E3B78EE1944AEA82CEF8C6 /* visbycf-heavy.otf */,
+				BDBE660BDFCC4F948E58CBE0 /* visbycf-heavyoblique.otf */,
+				01E5D60560ED4AA1870BB542 /* visbycf-light.otf */,
+				722477A4F6FA47EDB95F0E7F /* visbycf-lightoblique.otf */,
+				CDD35182F6E8498C87057E07 /* visbycf-medium.otf */,
+				00169B8A53EC465C847FC7B5 /* visbycf-mediumoblique.otf */,
+				9200A06DEAEB4BF1A83E4D6D /* visbycf-regular.otf */,
+				E3A9AB418B414F94852C0F5A /* visbycf-regularoblique.otf */,
+				A2631A9414AA4A51BA43F291 /* visbycf-thin.otf */,
+				971432D0196E4437834BD77A /* visbycf-thinoblique.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +301,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8B7F910CE1DB46219A341809 /* visbycf-bold.otf in Resources */,
+				7A7F60A0C3094EF8ACCA498C /* visbycf-boldoblique.otf in Resources */,
+				5970CCD635F34252BB0CE048 /* visbycf-demibold.otf in Resources */,
+				039183E99E1F4CFEA7EC4F66 /* visbycf-demiboldoblique.otf in Resources */,
+				B70A055D0BCA41509871AD8F /* visbycf-extrabold.otf in Resources */,
+				245EF005D1DF4248806AB785 /* visbycf-extraboldoblique.otf in Resources */,
+				46C9F79841DB49DAA0A9FB2A /* visbycf-heavy.otf in Resources */,
+				7800ACA03265457083CAD3D5 /* visbycf-heavyoblique.otf in Resources */,
+				2A506DEEE72A48C8A7C17AE3 /* visbycf-light.otf in Resources */,
+				11C5CA28EB314DD983B4B571 /* visbycf-lightoblique.otf in Resources */,
+				6F8BA0E1161B4923A792EE2D /* visbycf-medium.otf in Resources */,
+				1CC99E437C15419686EDD4C4 /* visbycf-mediumoblique.otf in Resources */,
+				4E830ECFA34D42E68E78B2F1 /* visbycf-regular.otf in Resources */,
+				D87FF3A209894AB197CE266C /* visbycf-regularoblique.otf in Resources */,
+				5DD5F477E8E540F68CAF6481 /* visbycf-thin.otf in Resources */,
+				AB606825F88243E498FDEAF9 /* visbycf-thinoblique.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

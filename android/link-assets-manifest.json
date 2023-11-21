@@ -1,0 +1,69 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/visbycf-bold.otf",
+      "sha1": "054e219709ab51e4c438a19f30be655d51bd6ba8"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-boldoblique.otf",
+      "sha1": "cbb79722ffbfa65e05e146a087f3e050c89dabf1"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-demibold.otf",
+      "sha1": "48bf97452e3219f3652f69141b47c047367b31c8"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-demiboldoblique.otf",
+      "sha1": "9d817b0d32ddea77f136bd9377b466e0e9fb7e15"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-extrabold.otf",
+      "sha1": "a568b49041ce58df82c8556c83c3c49ca7190650"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-extraboldoblique.otf",
+      "sha1": "e8b1300f6e7c449d3d6402ba89a3187c1d901ec8"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-heavy.otf",
+      "sha1": "737e628b0ccd4cae0a72c4fbb083287d8a353448"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-heavyoblique.otf",
+      "sha1": "8e2526f36e409e1e6e7119241c48e399b0613608"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-light.otf",
+      "sha1": "99641989684812d306e5678b7fbd85e59eae2a54"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-lightoblique.otf",
+      "sha1": "78b37488728599e2cab9966c3fa7f6494d8b65ff"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-medium.otf",
+      "sha1": "5c4e0cef18b44c2f4c5d9fb2d8493f942fb5f0cb"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-mediumoblique.otf",
+      "sha1": "4a75e6b6f5a25df80a2e2ae005bb7283a6a764ec"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-regular.otf",
+      "sha1": "25d209b3a575e43f7466631c5cf79d6e51986578"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-regularoblique.otf",
+      "sha1": "e35914b172c94c77756e7cb6e09f33668745f2b0"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-thin.otf",
+      "sha1": "e948affb2541900393761722a2446498ecbe15a4"
+    },
+    {
+      "path": "src/assets/fonts/visbycf-thinoblique.otf",
+      "sha1": "f8e164f22bdadc0732beddede603ba4e01c54876"
+    }
+  ]
+}

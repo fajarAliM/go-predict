@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,5 +51,24 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>visbycf-bold.otf</string>
+		<string>visbycf-boldoblique.otf</string>
+		<string>visbycf-demibold.otf</string>
+		<string>visbycf-demiboldoblique.otf</string>
+		<string>visbycf-extrabold.otf</string>
+		<string>visbycf-extraboldoblique.otf</string>
+		<string>visbycf-heavy.otf</string>
+		<string>visbycf-heavyoblique.otf</string>
+		<string>visbycf-light.otf</string>
+		<string>visbycf-lightoblique.otf</string>
+		<string>visbycf-medium.otf</string>
+		<string>visbycf-mediumoblique.otf</string>
+		<string>visbycf-regular.otf</string>
+		<string>visbycf-regularoblique.otf</string>
+		<string>visbycf-thin.otf</string>
+		<string>visbycf-thinoblique.otf</string>
+	</array>
 </dict>
 </plist>
