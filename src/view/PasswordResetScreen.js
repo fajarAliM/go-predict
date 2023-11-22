@@ -28,7 +28,7 @@ const PasswordResetScreen = ({ navigation }) => {
                 mode='outlined'
                 style={styles.emailInput}
             />
-            <TouchableOpacity style={{ width: '100%' }}>
+            <TouchableOpacity style={{ width: '100%' }} onPress={() => navigation.navigate('ResetPasswordStack')}>
                 <Button mode="contained" style={{ fontFamily: 'visbycf-bold', ...styles.loginButton }}>
                     <Text style={{ fontSize: 16, fontFamily: 'visbycf-bold', color: '#fff' }}>Reset Password</Text>
                 </Button>
