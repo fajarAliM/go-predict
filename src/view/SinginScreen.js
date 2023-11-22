@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import { TextInput, Checkbox, Button } from 'react-native-paper';
 
-const SinginScreen = () => {
+const SinginScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [checked, setChecked] = useState(false);
@@ -65,13 +65,13 @@ const SinginScreen = () => {
         </View>
       </View>
       <View style={{ width: '100%', marginTop: 40, marginBottom: 100, gap: 12 }}>
-        <TouchableOpacity style={{ width: '100%' }}>
+        <TouchableOpacity style={{ width: '100%' }} onPress={() => navigation.navigate('TermsStack')}>
           <View style={styles.termsPrivacyBtns}>
             <Text style={{ color: textHighLightedColor, fontWeight: '600' }}>Terms of Use</Text>
             <Image source={require('../assets/images/arrow-left.png')} />
           </View>
         </TouchableOpacity>
-        <TouchableOpacity style={{ width: '100%' }}>
+        <TouchableOpacity style={{ width: '100%' }} onPress={() => navigation.navigate('PrivacyStack')}>
           <View style={styles.termsPrivacyBtns}>
             <Text style={{ color: textHighLightedColor, fontWeight: '600' }}>Privacy Statement</Text>
             <Image source={require('../assets/images/arrow-left.png')} />
