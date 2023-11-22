@@ -71,7 +71,7 @@ const SinginScreen = ({ navigation }) => {
           <Text style={{ flex: 1, fontFamily: 'visbycf-medium', color: textNormalColor, lineHeight: 16 }}>I have read and understood the <Text style={{ color: textHighLightedColor, fontWeight: '600', textDecorationLine: 'underline' }}>Terms of Use</Text>
             &nbsp;and <Text style={{ color: textHighLightedColor, fontWeight: '600', textDecorationLine: 'underline' }}>Privacy Statement</Text></Text>
         </TouchableOpacity>
-        <TouchableOpacity style={{ width: '100%' }}>
+        <TouchableOpacity style={{ width: '100%' }} onPress={() => navigation.navigate('PredictionStack')}>
           <Button mode="contained" style={{ fontFamily: 'visbycf-bold', ...styles.loginButton }}>
             <Text style={{ fontSize: 16, fontFamily: 'visbycf-bold', color: '#fff' }}>Log In</Text>
           </Button>

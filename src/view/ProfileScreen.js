@@ -6,12 +6,12 @@ import {
 } from 'react-native';
 import HomeLayout from '../layout/HomeLayout';
 
-const PredictionScreen = ({ navigation }) => {
+const ProfileScreen = ({ navigation }) => {
   return (
-    <HomeLayout navigation={navigation} currentTab='Prediction'>
+    <HomeLayout navigation={navigation} currentTab="Profile">
       <Text>Prediction screen</Text>
     </HomeLayout>
   );
 }
 
-export default PredictionScreen;
+export default ProfileScreen;
