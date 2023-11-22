@@ -68,7 +68,7 @@ const SinginScreen = ({ navigation }) => {
 
         <TouchableOpacity style={styles.termsPrivacyRow} onPress={() => { setChecked(!checked) }}>
           <Checkbox status={checked ? 'checked' : 'unchecked'} />
-          <Text style={{ flex: 1, fontFamily: 'visbycf-medium', color: textNormalColor }}>I have read and understood the <Text style={{ color: textHighLightedColor, fontWeight: '600', textDecorationLine: 'underline' }}>Terms of Use</Text>
+          <Text style={{ flex: 1, fontFamily: 'visbycf-medium', color: textNormalColor, lineHeight: 16 }}>I have read and understood the <Text style={{ color: textHighLightedColor, fontWeight: '600', textDecorationLine: 'underline' }}>Terms of Use</Text>
             &nbsp;and <Text style={{ color: textHighLightedColor, fontWeight: '600', textDecorationLine: 'underline' }}>Privacy Statement</Text></Text>
         </TouchableOpacity>
         <TouchableOpacity style={{ width: '100%' }}>
@@ -77,7 +77,7 @@ const SinginScreen = ({ navigation }) => {
           </Button>
         </TouchableOpacity>
         <View style={{ display: 'flex', flexDirection: 'row' }}>
-          <Text style={{ fontSize: 16, color: textNormalColor, fontFamily: 'visbycf-medium' }}>
+          <Text style={{ fontSize: 16, color: textNormalColor, fontFamily: 'visbycf-medium', lineHeight: 18 }}>
             Forgot your password?&nbsp;
           </Text>
           <TouchableOpacity onPress={() => navigation.navigate('PasswordResetStack')}>
@@ -88,13 +88,21 @@ const SinginScreen = ({ navigation }) => {
       <View style={{ width: '100%', marginTop: 40, marginBottom: 100, gap: 12 }}>
         <TouchableOpacity style={{ width: '100%' }} onPress={() => navigation.navigate('TermsStack')}>
           <View style={styles.termsPrivacyBtns}>
-            <Text style={{ color: textHighLightedColor, fontWeight: '600' }}>Terms of Use</Text>
+            <CustomText
+              font="bold"
+              value="Terms of Use "
+              colorMode="highlight"
+            />
             <Image source={require('../assets/images/arrow-left.png')} />
           </View>
         </TouchableOpacity>
         <TouchableOpacity style={{ width: '100%' }} onPress={() => navigation.navigate('PrivacyStack')}>
           <View style={styles.termsPrivacyBtns}>
-            <Text style={{ color: textHighLightedColor, fontWeight: '600' }}>Privacy Statement</Text>
+            <CustomText
+              font="bold"
+              value="Privacy Statement"
+              colorMode="highlight"
+            />
             <Image source={require('../assets/images/arrow-left.png')} />
           </View>
         </TouchableOpacity>
@@ -112,6 +120,7 @@ const styles = StyleSheet.create({
   },
   guideText: {
     marginTop: 5,
+    lineHeight: 18,
   },
   loginFormView: {
     display: 'flex',
