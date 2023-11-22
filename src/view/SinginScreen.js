@@ -10,11 +10,13 @@ import {
   ScrollView
 } from 'react-native';
 import { TextInput, Checkbox, Button } from 'react-native-paper';
+import CustomText from '../components/custom/CustomText';
 
 const SinginScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [checked, setChecked] = useState(false);
+  const [protectPassword, setProtectPassword] = useState(true);
 
   const { colors } = useTheme();
 
@@ -25,7 +27,12 @@ const SinginScreen = ({ navigation }) => {
       <View style={{ flexDirection: 'column', alignItems: 'center', width: '100%' }}>
         <Image source={require('../assets/images/lightLogo.png')} style={{ marginTop: 50 }} />
         <Image source={require('../assets/images/loginPredictLight.png')} style={styles.loginPredictText} />
-        <Text style={{ ...styles.guideText, color: textNormalColor }}>Enter your registered details below</Text>
+        <CustomText
+          size={16}
+          font='medium'
+          value="Enter your registered details below"
+          styles={styles.guideText}
+        />
       </View>
 
       <View style={styles.loginFormView}>
@@ -33,6 +40,9 @@ const SinginScreen = ({ navigation }) => {
           <TextInput
             label="Email address or GPID"
             value={email}
+            left={
+              <TextInput.Icon icon="account" style={{ paddingTop: 10 }} />
+            }
             placeholder='example@gmail.com'
             onChangeText={text => setEmail(text)}
             mode='outlined'
@@ -41,26 +51,37 @@ const SinginScreen = ({ navigation }) => {
           <TextInput
             label="Password"
             value={password}
-            placeholder='example@gmail.com'
+            secureTextEntry={protectPassword}
+            placeholder='Password'
+            right={
+              <TextInput.Icon
+                onPress={() => setProtectPassword(!protectPassword)}
+                icon={protectPassword ? "eye" : "eye-off"}
+                style={{ paddingTop: 10 }}
+              />
+            }
             onChangeText={text => setPassword(text)}
             mode='outlined'
             style={styles.passwordInput}
           />
         </View>
 
-        <TouchableOpacity style={styles.termsPrivacyRow}>
-          <Text>I have read and understood the <Text style={{ color: textHighLightedColor, fontWeight: '600', textDecorationLine: 'underline' }}>Terms of Use</Text>
+        <TouchableOpacity style={styles.termsPrivacyRow} onPress={() => { setChecked(!checked) }}>
+          <Checkbox status={checked ? 'checked' : 'unchecked'} />
+          <Text style={{ flex: 1, fontFamily: 'visbycf-medium', color: textNormalColor }}>I have read and understood the <Text style={{ color: textHighLightedColor, fontWeight: '600', textDecorationLine: 'underline' }}>Terms of Use</Text>
             &nbsp;and <Text style={{ color: textHighLightedColor, fontWeight: '600', textDecorationLine: 'underline' }}>Privacy Statement</Text></Text>
         </TouchableOpacity>
         <TouchableOpacity style={{ width: '100%' }}>
-          <Button mode="contained" style={styles.loginButton}>Log In</Button>
+          <Button mode="contained" style={{ fontFamily: 'visbycf-bold', ...styles.loginButton }}>
+            <Text style={{ fontSize: 16, fontFamily: 'visbycf-bold', color: '#fff' }}>Log In</Text>
+          </Button>
         </TouchableOpacity>
         <View style={{ display: 'flex', flexDirection: 'row' }}>
-          <Text style={{ fontSize: 16, color: textNormalColor }}>
+          <Text style={{ fontSize: 16, color: textNormalColor, fontFamily: 'visbycf-medium' }}>
             Forgot your password?&nbsp;
           </Text>
-          <TouchableOpacity>
-            <Text style={{ color: textHighLightedColor, ...styles.forgotPassword }}>Reset Password</Text>
+          <TouchableOpacity onPress={() => navigation.navigate('PasswordResetStack')}>
+            <Text style={{ color: textHighLightedColor, fontFamily: 'visbycf-medium', ...styles.forgotPassword }}>Reset Password</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -84,16 +105,13 @@ const SinginScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   screenContainer: {
-    paddingHorizontal: 25
+    paddingHorizontal: 25,
   },
   loginPredictText: {
     marginTop: 100,
   },
   guideText: {
-    fontSize: 16,
-    fontWeight: '500',
     marginTop: 5,
-    fontFamily: 'visbycf-medium',
   },
   loginFormView: {
     display: 'flex',
@@ -120,7 +138,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   termsPrivacyRow: {
+    width: '100%',
     display: 'flex',
+    flexDirection: 'row',
     alignItems: 'center',
   },
   loginButton: {
@@ -130,8 +150,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#3CD981',
     color: '#ffffff',
     fontSize: 16,
-    fontWeight: '700',
-    fontFamily: 'visbycf-bold',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',

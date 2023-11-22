@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { Button } from 'react-native-paper';
 
-const TermsScreen = () => {
+const TermsScreen = ({ navigation }) => {
     const { colors } = useTheme();
 
     const textNormalColor = colors.customColors.regularText;
@@ -84,7 +84,7 @@ const TermsScreen = () => {
                 </View>
             </ScrollView>
 
-            <TouchableOpacity style={{marginLeft: 'auto'}}>
+            <TouchableOpacity style={{marginLeft: 'auto'}} onPress={() => navigation.navigate('LoginStack')}>
                 <Button style={styles.closeButton} mode="contained">Close & GoPredict</Button>
             </TouchableOpacity>
         </View>

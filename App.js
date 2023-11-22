@@ -7,7 +7,7 @@ import { StatusBar, useColorScheme } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 import MainStack from './src';
-import { customLightColors, customdarkColors } from './src/contants/themeColors';
+import { customLightColors, customdarkColors } from './src/constants/themeColors';
 
 const LightTheme = {
   ...DefaultTheme,
